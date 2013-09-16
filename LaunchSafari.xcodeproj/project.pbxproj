@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7312A217E7751400D6B3F1 /* IOSurface in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7312A117E7751400D6B3F1 /* IOSurface */; };
 		5D63EB5517E6A948007AB6FB /* LaunchSafariAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63EB5017E6A948007AB6FB /* LaunchSafariAppDelegate.m */; };
 		5D63EB5617E6A948007AB6FB /* LaunchSafariViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D63EB5117E6A948007AB6FB /* LaunchSafariViewController-iPad.xib */; };
 		5D63EB5717E6A948007AB6FB /* LaunchSafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63EB5317E6A948007AB6FB /* LaunchSafariViewController.m */; };
@@ -14,7 +15,6 @@
 		5D63EB5B17E6A95A007AB6FB /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D63EB5917E6A95A007AB6FB /* MainWindow-iPad.xib */; };
 		5D63EB5C17E6A95A007AB6FB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D63EB5A17E6A95A007AB6FB /* MainWindow.xib */; };
 		5D63EB6117E6A98E007AB6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63EB6017E6A98E007AB6FB /* main.m */; };
-		5D63EB6317E6AA73007AB6FB /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D63EB6217E6AA73007AB6FB /* IOSurface.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5DDEAC4C17E04A3C00A6DE11 /* libAppurifySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDEAC4B17E04A3C00A6DE11 /* libAppurifySDK.a */; };
 		5DDEAC5017E04EB300A6DE11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDEAC4F17E04EB300A6DE11 /* QuartzCore.framework */; };
 		5DDEAC5B17E0D45200A6DE11 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDEAC5A17E0D45100A6DE11 /* AVFoundation.framework */; };
@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7312A117E7751400D6B3F1 /* IOSurface */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IOSurface; path = LaunchSafari/IOSurface; sourceTree = "<group>"; };
 		5D63EB4E17E6A911007AB6FB /* Appurify_Debugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appurify_Debugger.h; path = LaunchSafari/Appurify_Debugger.h; sourceTree = SOURCE_ROOT; };
 		5D63EB4F17E6A948007AB6FB /* LaunchSafariAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchSafariAppDelegate.h; path = LaunchSafari/LaunchSafariAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		5D63EB5017E6A948007AB6FB /* LaunchSafariAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchSafariAppDelegate.m; path = LaunchSafari/LaunchSafariAppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -42,7 +43,6 @@
 		5D63EB5D17E6A972007AB6FB /* LaunchSafari-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LaunchSafari-Info.plist"; path = "LaunchSafari/LaunchSafari-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5D63EB5E17E6A972007AB6FB /* LaunchSafari-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LaunchSafari-Prefix.pch"; path = "LaunchSafari/LaunchSafari-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		5D63EB6017E6A98E007AB6FB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LaunchSafari/main.m; sourceTree = SOURCE_ROOT; };
-		5D63EB6217E6AA73007AB6FB /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = ../IOSurface.framework; sourceTree = "<group>"; };
 		5DDEAC4B17E04A3C00A6DE11 /* libAppurifySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppurifySDK.a; path = LaunchSafari/libAppurifySDK.a; sourceTree = SOURCE_ROOT; };
 		5DDEAC4F17E04EB300A6DE11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5DDEAC5A17E0D45100A6DE11 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D63EB6317E6AA73007AB6FB /* IOSurface.framework in Frameworks */,
+				0A7312A217E7751400D6B3F1 /* IOSurface in Frameworks */,
 				5DDEAEAC17E3FF0100A6DE11 /* Security.framework in Frameworks */,
 				5DDEAEAA17E3FEF900A6DE11 /* libicucore.dylib in Frameworks */,
 				A6D44A8814912AB900EF013C /* Foundation.framework in Frameworks */,
@@ -85,7 +85,7 @@
 		A6D44A7614912AB900EF013C = {
 			isa = PBXGroup;
 			children = (
-				5D63EB6217E6AA73007AB6FB /* IOSurface.framework */,
+				0A7312A117E7751400D6B3F1 /* IOSurface */,
 				5DDEAEAB17E3FF0100A6DE11 /* Security.framework */,
 				5DDEAEA917E3FEF900A6DE11 /* libicucore.dylib */,
 				5DDEAEA717E3FEEA00A6DE11 /* CFNetwork.framework */,
@@ -279,6 +279,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/LaunchSafari\"",
 				);
 				PRODUCT_NAME = LaunchSafari;
 				WRAPPER_EXTENSION = app;
@@ -299,6 +300,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/LaunchSafari\"",
 				);
 				PRODUCT_NAME = LaunchSafari;
 				WRAPPER_EXTENSION = app;
