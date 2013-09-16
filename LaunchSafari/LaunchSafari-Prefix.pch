@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'LaunchSafari' target in the 'LaunchSafari' project
+//
+//
+// Sample app to demonstrate the Appurify debugger
+//
+// manish@appurify.com
+//
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
