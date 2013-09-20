@@ -1,4 +1,4 @@
-# Appurify SDK Example
+# Appurify SDK
 
 The Appurify SDK allows developers to record test automation scripts simply by interacting with their application.  These scripts can then be uploaded to Appurify’s testing platform, and even converted into UI Automation test cases that can be extended and updated.
 
@@ -11,7 +11,7 @@ Note that this SDK is designed for use on real devices only.
 
 ![Xcode Integration](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot9.png?login=krohling&token=ae3ef884484371b6746a7df7d54d97e8)
 
-2) Add the top of your UIApplicationDelegate add the following:
+2) At the top of your UIApplicationDelegate add the following:
 
 ```
 #import "Appurify_Debugger.h"
