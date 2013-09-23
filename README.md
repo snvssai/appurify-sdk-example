@@ -1,5 +1,5 @@
 # Appurify SDK
-<a href="https://live.appurify.com/tools/"><img src='https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/sdk.png'/></a>
+<a href="http://bit.ly/1bCd3zd"><img src='https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/sdk.png'/></a>
 
 The Appurify SDK allows developers to record test automation scripts simply by interacting with their application.  These scripts can then be uploaded to Appurify’s testing platform, and even converted into UI Automation test cases that can be extended and updated.
 
