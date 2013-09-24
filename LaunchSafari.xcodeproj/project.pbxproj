@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5E922B17F23A0E0038AB6A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E922A17F23A0E0038AB6A /* MessageUI.framework */; };
 		0A7312A217E7751400D6B3F1 /* IOSurface in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7312A117E7751400D6B3F1 /* IOSurface */; };
 		5D63EB5517E6A948007AB6FB /* LaunchSafariAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D63EB5017E6A948007AB6FB /* LaunchSafariAppDelegate.m */; };
 		5D63EB5617E6A948007AB6FB /* LaunchSafariViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D63EB5117E6A948007AB6FB /* LaunchSafariViewController-iPad.xib */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5E922A17F23A0E0038AB6A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		0A7312A117E7751400D6B3F1 /* IOSurface */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IOSurface; path = LaunchSafari/IOSurface; sourceTree = "<group>"; };
 		5D63EB4E17E6A911007AB6FB /* Appurify_Debugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appurify_Debugger.h; path = LaunchSafari/Appurify_Debugger.h; sourceTree = SOURCE_ROOT; };
 		5D63EB4F17E6A948007AB6FB /* LaunchSafariAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchSafariAppDelegate.h; path = LaunchSafari/LaunchSafariAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5E922B17F23A0E0038AB6A /* MessageUI.framework in Frameworks */,
 				0A7312A217E7751400D6B3F1 /* IOSurface in Frameworks */,
 				5DDEAEAC17E3FF0100A6DE11 /* Security.framework in Frameworks */,
 				5DDEAEAA17E3FEF900A6DE11 /* libicucore.dylib in Frameworks */,
@@ -112,6 +115,7 @@
 		A6D44A8414912AB900EF013C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A5E922A17F23A0E0038AB6A /* MessageUI.framework */,
 				A6D44A8514912AB900EF013C /* UIKit.framework */,
 				A6D44A8714912AB900EF013C /* Foundation.framework */,
 				A6D44A8914912AB900EF013C /* CoreGraphics.framework */,
