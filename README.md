@@ -75,3 +75,24 @@ At this point, all UI interactions will be recorded by the SDK.  When you are do
 
 ![Script Upload](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot8.png?login=krohling&token=63be57ed81349fdd5bf703f3c69cdb29)
 
+
+### HTML 5 Debugging
+
+1)	On your mobile device under Settings\Safari\Advanced make sure “Web Inspector” is turned on.
+
+![Start Event Recorder](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot10.png)
+
+2)	On your desktop open Safari.  Then, under Preferences\Advanced, make sure “Show Develop menu in menu bar” is enabled.
+
+![Start Event Recorder](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot11.png)
+
+3)	With your app running, plug your device into your desktop.
+
+4)	On your desktop, under the Safari \ Develop menu select your application from the list.
+
+![Start Event Recorder](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot12.png)
+
+5)	Now, you can analyze your Webview and see detailed network output just like the app were running on your desktop machine!
+
+![Start Event Recorder](https://raw.github.com/appurify/appurify-sdk-example/master/screenshots/screenshot13.png)
+
