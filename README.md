@@ -3,7 +3,7 @@
 
 The Appurify SDK allows developers to record test automation scripts simply by interacting with their application.  These scripts can then be uploaded to Appurify’s testing platform, and even converted into UI Automation test cases that can be extended and updated.
 
-Note that this SDK is designed for use on real devices only.
+**Note: The Appurify SDK is designed for use on real devices only and will not compile for the Simulator SDK.**
 
 
 ## Installation
